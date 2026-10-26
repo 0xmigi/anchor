@@ -43,6 +43,7 @@ The minor version will be incremented upon a breaking change and the patch versi
 - cli: Keep a custom provider `ws` URL when rewriting `Anchor.toml` ([#5193](https://github.com/otter-sec/anchor/issues/5193)).
 - lang: Read the `#[account]` namespace from the string value ([#5200](https://github.com/otter-sec/anchor/pull/5200)).
 - lang: Reject closing an account into itself from `close()` ([#5202](https://github.com/otter-sec/anchor/pull/5202)).
+- cli: Restore `--verifiable` for deploys, now on `anchor program deploy`, so the `target/verifiable` build can be deployed again without the deprecated `anchor deploy` ([#5223](https://github.com/otter-sec/anchor/pull/5223)).
 
 ### Breaking
 
